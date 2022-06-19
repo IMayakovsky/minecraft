@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 604863bef2f81714b90b56811bb2841f, type: 3}
+  m_Name: Grass
+  m_EditorClassIdentifier: 
+  BiomeName: Grass
+  SolidGroundHeight: 42
+  TerrainHeight: 42
+  TerrainScale: 25
+  SurfaceBlock: 3
+  SubSurfaceBlock: 5
+  MiddleBlock: 2
+  TreeZoneScale: 1.3
+  TreeZoneThreshold: 0.497
+  TreePlacementScale: 15
+  TreePlacementThreshold: 0.588
+  MaxTreeHeight: 12
+  MinTreeHeight: 7
+  Lodes:
+  - LodeName: Dirt
+    BlockType: 5
+    MinHeight: 0
+    MaxHeight: 225
+    Scale: 0.1
+    Frequency: 0.5
+    NoiseOffset: 0
+  - LodeName: Dirt
+    BlockType: 5
+    MinHeight: 30
+    MaxHeight: 60
+    Scale: 0.2
+    Frequency: 0.6
+    NoiseOffset: 500
